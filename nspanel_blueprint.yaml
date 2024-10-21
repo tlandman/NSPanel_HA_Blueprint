@@ -26,7 +26,7 @@ blueprint:
 
   input:
     nspanel_name:  # This key was kept with this name to support inputs from legacy versions where the panel name was used
-      name: NSPanel device (REQUIRED)
+      name: nspanel
       description: "Please select the ESPHome device related to the NSPanel to be controlled by this automation."
       default: []
       selector:
